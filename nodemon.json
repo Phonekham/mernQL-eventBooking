@@ -1,0 +1,6 @@
+{
+  "env": {
+    "DATABASE_CLOUD": "",
+    "DATABASE_LOCAL": "mongodb://localhost:27017/mernQL-eventBooking"
+  }
+}
