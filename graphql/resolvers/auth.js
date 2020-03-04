@@ -15,7 +15,7 @@ module.exports = {
         password: hashedPassword
       });
       const result = await user.save();
-      return { ...result._doc, _id: result._id, password: null };
+      return { ...result._doc, _id: result.id, password: null };
     } catch (err) {
       throw err;
     }
